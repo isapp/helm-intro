@@ -67,7 +67,7 @@ config:
       right: 15px
       bottom: 15px
       width: 100px
-      opacity: 0.9
+      opacity: 0.3
   
   # Cursor style can be one of
   # `block`, `underline`, or `bar`
@@ -93,10 +93,11 @@ config:
     foreground: "#afafaf"
     cursor: "#c7c7c7"
     black: "#232628"
+    gray: "rgb(42, 161, 162)"
     red: "#fc4384"
-    green: "#b3e33b"
+    green: "rgb(133, 153, 0)"
     yellow: "#ffa727"
-    blue: "#75dff2"
+    blue: "rgb(37, 139, 210)"
     magenta: "#ae89fe"
     cyan: "#708387"
     white: "#d5d5d0"
@@ -104,7 +105,7 @@ config:
     brightRed: "#ff7fac"
     brightGreen: "#c8ed71"
     brightYellow: "#ebdf86"
-    brightBlue: "#75dff2"
+    brightBlue: "rgb(37, 139, 210)"
     brightMagenta: "#ae89fe"
     brightCyan: "#b1c6ca"
     brightWhite: "#f9f9f4"
