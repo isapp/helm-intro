@@ -78,7 +78,7 @@ Helm is an:
 Let's take a look at what gets created.
 
 ### Golang Templating Language
-* Helm uses the Go templating language with [Spring functions included](http://masterminds.github.io/sprig/)
+* Helm uses the Go templating language with [Sprig functions included](http://masterminds.github.io/sprig/)
 * --dry-run will help you verify templated yaml
 * [My source of friendly reminder YAML docs](https://learnxinyminutes.com/docs/yaml/)
 * Looks intimidating at first, but it's really not all that and a bag of chips
@@ -96,10 +96,8 @@ https://ci.withfocus.com
 1. Application Artifact: Docker image containing your built application. Published to an [ECR](https://aws.amazon.com/ecr/) repository under `<aws_account_number>.dkr.ecr.<aws_region>.amazonaws.com/<ecr_repo_name>:<application_version>`
 1. Automated Test Artifact: Publish test result <nexus/S3/etc>
 1. Manual Test Artifact: Acceptance of JIRA tickets indicate that a representative of the business has manually interacted with the feature and verified it works as expected.
-1. Vulnerability Scanning: [WhiteHat Security](https://www.whitehatsec.com/) for vulnerability scanning.
-    * Make sure you have a scanning schedule setup
-    * Staging builds are candidates for promotion to production.
-    * Confirming a valid security scan is a manual process.
+1. Automated vulnerability scanning before promotion: 
+    * passing builds are candidates for promotion to staging/production.
 
 ### Further Reading
 * [Helm Hub](https://hub.helm.sh/)
