@@ -103,5 +103,6 @@ https://ci.withfocus.com
 
 ### Further Reading
 * [Helm Hub](https://hub.helm.sh/)
-* [Vault Tutorial](https://www.vaultproject.io/docs/platform/k8s/helm/run)
+* [Concourse](https://concourse-ci.org/)
+* [FluxCD](https://https://fluxcd.io/)
 
