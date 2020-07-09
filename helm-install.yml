@@ -33,7 +33,7 @@ config:
   
   # Quality
   # 1 - 100
-  quality: 50
+  quality: 100
   
   # Delay between frames in ms
   # If the value is `auto` use the actual recording delays
@@ -67,7 +67,7 @@ config:
       right: 15px
       bottom: 15px
       width: 100px
-      opacity: 0.9
+      opacity: 0.3
   
   # Cursor style can be one of
   # `block`, `underline`, or `bar`
@@ -76,7 +76,7 @@ config:
   # Font family
   # You can use any font that is installed on your machine
   # in CSS-like syntax
-  fontFamily: "MesloLGS NF, Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  fontFamily: "Meslo for Powerline, Meslo LG M for Powerline, MesloLGS NF, Monaco, Lucida Console, Ubuntu Mono, Monospace"
   
   # The size of the font
   fontSize: 12
@@ -104,7 +104,7 @@ config:
     brightRed: "#ff7fac"
     brightGreen: "#c8ed71"
     brightYellow: "#ebdf86"
-    brightBlue: "#75dff2"
+    brightBlue: "rgb(37, 139, 210)"
     brightMagenta: "#ae89fe"
     brightCyan: "#b1c6ca"
     brightWhite: "#f9f9f4"

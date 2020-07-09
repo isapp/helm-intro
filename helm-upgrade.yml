@@ -23,7 +23,7 @@ config:
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
-  rows: 56
+  rows: 20
   
   # Amount of times to repeat GIF
   # If value is -1, play once
@@ -42,7 +42,7 @@ config:
   # Maximum delay between frames in ms
   # Ignored if the `frameDelay` isn't set to `auto`
   # Set to `auto` to prevent limiting the max idle time
-  maxIdleTime: 2000
+  maxIdleTime: 250
   
   # The surrounding frame box
   # The `type` can be null, window, floating, or solid`
@@ -50,7 +50,7 @@ config:
   # Don't forget to add a backgroundColor style with a null as type
   frameBox:
     type: floating
-    title: Terminalizer
+    title: Helm Install & Rollback Demo
     style:
       border: 0px black solid
       # boxShadow: none
@@ -61,7 +61,7 @@ config:
   # the image on your machine or a URL, and you can also
   # add your own CSS styles
   watermark:
-    imagePath: null
+    imagePath: /Users/austinvance/Documents/Lense.png
     style:
       position: absolute
       right: 15px
@@ -76,7 +76,7 @@ config:
   # Font family
   # You can use any font that is installed on your machine
   # in CSS-like syntax
-  fontFamily: "MesloLGS NF, Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  fontFamily: "Meslo for Powerline, Meslo LG M for Powerline, MesloLGS NF, Monaco, Lucida Console, Ubuntu Mono, Monospace"
   
   # The size of the font
   fontSize: 12
