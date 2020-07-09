@@ -47,4 +47,4 @@ Helm is an:
 
 # Lets deploy something with helm
 
-![helm deploy](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
+![helm deploy](https://github.com/focused-labs/helm-intro/blob/master/helm-install.gif?raw=true)

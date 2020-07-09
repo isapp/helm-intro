@@ -1,0 +1,499 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/austinvance/workspace/focused/talk
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 130
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 56
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "MesloLGS NF, Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 655
+    content: "\e[0m\e[49m\e[39m\e[27m\e[24m\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                 \r\e[0m\e[49m\e[39m\e[27m\e[24m\e[K\r\n\r\n\e[2A\e7\e[0m\e[49m\e[39m\r\n\e[0m\e[44m\e[38;5;254m \e[1m\e[38;5;254m\e[44m\e[38;5;255m~\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m/workspace/focused/\e[1m\e[38;5;254m\e[44m\e[38;5;255mtalk\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m\e[0m\e[38;5;254m\e[44m\e[44m\e[38;5;254m \e[0m\e[38;5;254m\e[44m\e[49m\e[34m\e[0m\e[34m\e[49m\e[39m \e[0m\e[49m\e[39m                                                                                                 \e[0m\e[49m\e[30m\e[0m\e[30m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m✔\e[0m\e[32m\e[40m\e[40m\e[32m \e[0m\e[32m\e[40m\e[49m\e[39m\e[0m\e[49m\e[39m\e[27m\e[24m\r\e[28C"
+  - delay: 875
+    content: h
+  - delay: 100
+    content: e
+  - delay: 56
+    content: l
+  - delay: 147
+    content: m
+  - delay: 282
+    content: ' '
+  - delay: 259
+    content: u
+  - delay: 167
+    content: p
+  - delay: 68
+    content: g
+  - delay: 212
+    content: r
+  - delay: 103
+    content: a
+  - delay: 282
+    content: d
+  - delay: 158
+    content: e
+  - delay: 100
+    content: ' '
+  - delay: 518
+    content: "\e[?25l\e8\e[0m\e[49m\e[39m\e[27m\e[24m\e[J\e]2;austinvance@morgan: ~/workspace/focused/talk\a\e]1;../focused/talk\a\e[0m\e[38;5;254m\e[44m\e[49m\e[39m\e[27m\e[24m\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                 \r\e[0m\e[49m\e[39m\e[27m\e[24m\e[K\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[44m\e[38;5;254m \e[1m\e[38;5;254m\e[44m\e[38;5;255m~\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m/workspace/focused/\e[1m\e[38;5;254m\e[44m\e[38;5;255mtalk\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m\e[0m\e[38;5;254m\e[44m\e[44m\e[38;5;254m \e[0m\e[38;5;254m\e[44m\e[49m\e[34m\e[0m\e[34m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[64C\e[0m\e[49m\e[30m\e[0m\e[30m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m✔\e[0m\e[32m\e[40m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m\e[32m\e[0m\e[32m\e[40m\e[42m\e[90m focused-demo/test\e[0m\e[90m\e[42m\e[42m\e[90m ⎈\e[0m\e[90m\e[42m\e[42m\e[90m \e[0m\e[90m\e[42m\e[42m\e[90m\e[36m\e[0m\e[36m\e[42m\e[46m\e[90m twenty\e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[49m\e[39m\e[101D\e[?1h\e=\e[?12l\e[?25h\e[?2004hh\bhelm upgrade "
+  - delay: 136
+    content: e
+  - delay: 157
+    content: c
+  - delay: 64
+    content: h
+  - delay: 148
+    content: o
+  - delay: 710
+    content: '-'
+  - delay: 136
+    content: s
+  - delay: 124
+    content: e
+  - delay: 90
+    content: r
+  - delay: 146
+    content: v
+  - delay: 111
+    content: e
+  - delay: 80
+    content: r
+  - delay: 124
+    content: ' '
+  - delay: 290
+    content: '-'
+  - delay: 159
+    content: '-'
+  - delay: 102
+    content: s
+  - delay: 112
+    content: e
+  - delay: 608
+    content: t
+  - delay: 135
+    content: ' '
+  - delay: 428
+    content: r
+  - delay: 65
+    content: e
+  - delay: 182
+    content: p
+  - delay: 180
+    content: l
+  - delay: 158
+    content: i
+  - delay: 56
+    content: c
+  - delay: 68
+    content: a
+  - delay: 638
+    content: C
+  - delay: 125
+    content: o
+  - delay: 102
+    content: u
+  - delay: 168
+    content: 'n'
+  - delay: 101
+    content: t
+  - delay: 1048
+    content: '='
+  - delay: 393
+    content: '5'
+  - delay: 1127
+    content: ' '
+  - delay: 255
+    content: e
+  - delay: 66
+    content: a
+  - delay: 889
+    content: l
+  - delay: 418
+    content: e
+  - delay: 257
+    content: 'n'
+  - delay: 117
+    content: 'n'
+  - delay: 245
+    content: /
+  - delay: 413
+    content: e
+  - delay: 137
+    content: c
+  - delay: 64
+    content: h
+  - delay: 162
+    content: o
+  - delay: 369
+    content: '-'
+  - delay: 159
+    content: s
+  - delay: 147
+    content: e
+  - delay: 31
+    content: r
+  - delay: 205
+    content: v
+  - delay: 102
+    content: e
+  - delay: 85
+    content: "r\e[K"
+  - delay: 473
+    content: "\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m helm upgrade echo-server --set replicaCount=5 ealenn/echo-server\e[K\e[?12l\e[?25h\r\r\n\e]2;helm upgrade echo-server --set replicaCount=5 ealenn/echo-server\a\e]1;helm\a"
+  - delay: 3537
+    content: "Release \"echo-server\" has been upgraded. Happy Helming!\r\nNAME: echo-server\r\nLAST DEPLOYED: Thu Jul  9 16:56:28 2020\r\nNAMESPACE: test\r\nSTATUS: deployed\r\nREVISION: 2\r\n"
+  - delay: 6
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                 \r \r\e]2;austinvance@morgan: ~/workspace/focused/talk\a\e]1;../focused/talk\a"
+  - delay: 11
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[44m\e[38;5;254m \e[1m\e[38;5;254m\e[44m\e[38;5;255m~\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m/\e[38;5;250mw\e[0m\e[38;5;250m\e[44m\e[44m\e[38;5;254m/focused/\e[1m\e[38;5;254m\e[44m\e[38;5;255mtalk\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m\e[0m\e[38;5;254m\e[44m\e[44m\e[38;5;254m \e[0m\e[38;5;254m\e[44m\e[49m\e[34m\e[0m\e[34m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[67C\e[0m\e[49m\e[30m\e[0m\e[30m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m✔\e[0m\e[32m\e[40m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m\e[33m\e[0m\e[33m\e[40m\e[43m\e[30m 4s\e[0m\e[30m\e[43m\e[43m\e[30m\e[0m\e[30m\e[43m\e[43m\e[30m \e[0m\e[30m\e[43m\e[43m\e[30m\e[32m\e[0m\e[32m\e[43m\e[42m\e[90m focused-demo/test\e[0m\e[90m\e[42m\e[42m\e[90m ⎈\e[0m\e[90m\e[42m\e[42m\e[90m \e[0m\e[90m\e[42m\e[42m\e[90m\e[36m\e[0m\e[36m\e[42m\e[46m\e[90m twenty\e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[49m\e[39m\e[109D\e[?1h\e=\e[?2004h"
+  - delay: 2927
+    content: k
+  - delay: 968
+    content: "\bku"
+  - delay: 157
+    content: b
+  - delay: 112
+    content: e
+  - delay: 236
+    content: c
+  - delay: 67
+    content: t
+  - delay: 101
+    content: l
+  - delay: 88
+    content: ' '
+  - delay: 126
+    content: g
+  - delay: 90
+    content: e
+  - delay: 91
+    content: t
+  - delay: 68
+    content: ' '
+  - delay: 135
+    content: p
+  - delay: 168
+    content: o
+  - delay: 33
+    content: d
+  - delay: 69
+    content: s
+  - delay: 154
+    content: "\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m kubectl get pods\e[K\e[?12l\e[?25h\r\r\n\e]2;kubectl get pods\a\e]1;kubectl\a"
+  - delay: 898
+    content: "NAME                         READY   STATUS    RESTARTS   AGE\r\necho-server-5fdc45cd-7257k   1/1     Running   0          7s\r\necho-server-5fdc45cd-ddpt9   1/1     Running   0          7s\r\necho-server-5fdc45cd-gmm9x   1/1     Running   0          7s\r\necho-server-5fdc45cd-jwwjr   1/1     Running   0          42s\r\necho-server-5fdc45cd-tmgjg   1/1     Running   0          7s\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                 \r \r\e]2;austinvance@morgan: ~/workspace/focused/talk\a\e]1;../focused/talk\a"
+  - delay: 12
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[44m\e[38;5;254m \e[1m\e[38;5;254m\e[44m\e[38;5;255m~\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m/\e[38;5;250mw\e[0m\e[38;5;250m\e[44m\e[44m\e[38;5;254m/focused/\e[1m\e[38;5;254m\e[44m\e[38;5;255mtalk\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m\e[0m\e[38;5;254m\e[44m\e[44m\e[38;5;254m \e[0m\e[38;5;254m\e[44m\e[49m\e[34m\e[0m\e[34m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[72C\e[0m\e[49m\e[30m\e[0m\e[30m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m✔\e[0m\e[32m\e[40m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m\e[32m\e[0m\e[32m\e[40m\e[42m\e[90m focused-demo/test\e[0m\e[90m\e[42m\e[42m\e[90m ⎈\e[0m\e[90m\e[42m\e[42m\e[90m \e[0m\e[90m\e[42m\e[42m\e[90m\e[36m\e[0m\e[36m\e[42m\e[46m\e[90m twenty\e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[49m\e[39m\e[109D\e[?1h\e=\e[?2004h"
+  - delay: 6002
+    content: kubectl get pods
+  - delay: 227
+    content: "\e[16Dhelm upgrade echo-server --set replicaCount=5 ealenn/echo-server"
+  - delay: 651
+    content: "\b"
+  - delay: 254
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 37
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 37
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 165
+    content: "\b"
+  - delay: 137
+    content: "\b"
+  - delay: 509
+    content: "\b ealenn/echo-server \e[20D"
+  - delay: 604
+    content: "3 ealenn/echo-server\e[19D"
+  - delay: 674
+    content: "\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m helm upgrade echo-server --set replicaCount=3 ealenn/echo-server\e[K\e[19D\e[?12l\e[?25h\r\r\n\e]2;helm upgrade echo-server --set replicaCount=3 ealenn/echo-server\a\e]1;helm\a"
+  - delay: 3538
+    content: "Release \"echo-server\" has been upgraded. Happy Helming!\r\nNAME: echo-server\r\nLAST DEPLOYED: Thu Jul  9 16:56:48 2020\r\nNAMESPACE: test\r\nSTATUS: deployed\r\nREVISION: 3\r\n"
+  - delay: 10
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                 \r \r\e]2;austinvance@morgan: ~/workspace/focused/talk\a\e]1;../focused/talk\a"
+  - delay: 12
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[44m\e[38;5;254m \e[1m\e[38;5;254m\e[44m\e[38;5;255m~\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m/\e[38;5;250mw\e[0m\e[38;5;250m\e[44m\e[44m\e[38;5;254m/focused/\e[1m\e[38;5;254m\e[44m\e[38;5;255mtalk\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m\e[0m\e[38;5;254m\e[44m\e[44m\e[38;5;254m \e[0m\e[38;5;254m\e[44m\e[49m\e[34m\e[0m\e[34m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[67C\e[0m\e[49m\e[30m\e[0m\e[30m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m✔\e[0m\e[32m\e[40m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m\e[33m\e[0m\e[33m\e[40m\e[43m\e[30m 4s\e[0m\e[30m\e[43m\e[43m\e[30m\e[0m\e[30m\e[43m\e[43m\e[30m \e[0m\e[30m\e[43m\e[43m\e[30m\e[32m\e[0m\e[32m\e[43m\e[42m\e[90m focused-demo/test\e[0m\e[90m\e[42m\e[42m\e[90m ⎈\e[0m\e[90m\e[42m\e[42m\e[90m \e[0m\e[90m\e[42m\e[42m\e[90m\e[36m\e[0m\e[36m\e[42m\e[46m\e[90m twenty\e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[49m\e[39m\e[109D\e[?1h\e=\e[?2004h"
+  - delay: 1209
+    content: k
+  - delay: 147
+    content: "\bku"
+  - delay: 191
+    content: b
+  - delay: 43
+    content: e
+  - delay: 463
+    content: c
+  - delay: 155
+    content: t
+  - delay: 89
+    content: l
+  - delay: 93
+    content: ' '
+  - delay: 155
+    content: g
+  - delay: 115
+    content: e
+  - delay: 80
+    content: t
+  - delay: 89
+    content: ' '
+  - delay: 147
+    content: p
+  - delay: 157
+    content: o
+  - delay: 42
+    content: d
+  - delay: 83
+    content: s
+  - delay: 155
+    content: "\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m kubectl get pods\e[K\e[?12l\e[?25h\r\r\n\e]2;kubectl get pods\a\e]1;kubectl\a"
+  - delay: 774
+    content: "NAME                         READY   STATUS        RESTARTS   AGE\r\necho-server-5fdc45cd-7257k   1/1     Terminating   0          24s\r\necho-server-5fdc45cd-ddpt9   1/1     Terminating   0          24s\r\necho-server-5fdc45cd-gmm9x   1/1     Running       0          24s\r\necho-server-5fdc45cd-jwwjr   1/1     Running       0          59s\r\necho-server-5fdc45cd-tmgjg   1/1     Running       0          24s\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                 \r \r\e]2;austinvance@morgan: ~/workspace/focused/talk\a\e]1;../focused/talk\a"
+  - delay: 11
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[44m\e[38;5;254m \e[1m\e[38;5;254m\e[44m\e[38;5;255m~\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m/\e[38;5;250mw\e[0m\e[38;5;250m\e[44m\e[44m\e[38;5;254m/focused/\e[1m\e[38;5;254m\e[44m\e[38;5;255mtalk\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m\e[0m\e[38;5;254m\e[44m\e[44m\e[38;5;254m \e[0m\e[38;5;254m\e[44m\e[49m\e[34m\e[0m\e[34m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[72C\e[0m\e[49m\e[30m\e[0m\e[30m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m✔\e[0m\e[32m\e[40m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m\e[32m\e[0m\e[32m\e[40m\e[42m\e[90m focused-demo/test\e[0m\e[90m\e[42m\e[42m\e[90m ⎈\e[0m\e[90m\e[42m\e[42m\e[90m \e[0m\e[90m\e[42m\e[42m\e[90m\e[36m\e[0m\e[36m\e[42m\e[46m\e[90m twenty\e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[49m\e[39m\e[109D\e[?1h\e=\e[?2004h"
+  - delay: 1797
+    content: h
+  - delay: 96
+    content: "\bhe"
+  - delay: 68
+    content: l
+  - delay: 169
+    content: m
+  - delay: 235
+    content: ' '
+  - delay: 307
+    content: r
+  - delay: 79
+    content: o
+  - delay: 201
+    content: l
+  - delay: 117
+    content: l
+  - delay: 602
+    content: b
+  - delay: 102
+    content: a
+  - delay: 82
+    content: c
+  - delay: 108
+    content: k
+  - delay: 182
+    content: ' '
+  - delay: 1646
+    content: e
+  - delay: 142
+    content: c
+  - delay: 117
+    content: h
+  - delay: 167
+    content: o
+  - delay: 563
+    content: '-'
+  - delay: 440
+    content: s
+  - delay: 167
+    content: e
+  - delay: 91
+    content: r
+  - delay: 210
+    content: v
+  - delay: 78
+    content: e
+  - delay: 94
+    content: r
+  - delay: 165
+    content: "\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m helm rollback echo-server\e[K\e[?12l\e[?25h\r\r\n\e]2;helm rollback echo-server\a\e]1;helm\a"
+  - delay: 1610
+    content: "Rollback was a success! Happy Helming!\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                 \r \r\e]2;austinvance@morgan: ~/workspace/focused/talk\a\e]1;../focused/talk\a"
+  - delay: 11
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[44m\e[38;5;254m \e[1m\e[38;5;254m\e[44m\e[38;5;255m~\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m/\e[38;5;250mw\e[0m\e[38;5;250m\e[44m\e[44m\e[38;5;254m/focused/\e[1m\e[38;5;254m\e[44m\e[38;5;255mtalk\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m\e[0m\e[38;5;254m\e[44m\e[44m\e[38;5;254m \e[0m\e[38;5;254m\e[44m\e[49m\e[34m\e[0m\e[34m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[72C\e[0m\e[49m\e[30m\e[0m\e[30m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m✔\e[0m\e[32m\e[40m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m\e[32m\e[0m\e[32m\e[40m\e[42m\e[90m focused-demo/test\e[0m\e[90m\e[42m\e[42m\e[90m ⎈\e[0m\e[90m\e[42m\e[42m\e[90m \e[0m\e[90m\e[42m\e[42m\e[90m\e[36m\e[0m\e[36m\e[42m\e[46m\e[90m twenty\e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[49m\e[39m\e[109D\e[?1h\e=\e[?2004h"
+  - delay: 2559
+    content: h
+  - delay: 167
+    content: "\bhe"
+  - delay: 135
+    content: l
+  - delay: 172
+    content: m
+  - delay: 134
+    content: ' '
+  - delay: 228
+    content: l
+  - delay: 146
+    content: s
+  - delay: 246
+    content: "\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m helm ls\e[K\e[?12l\e[?25h\r\r\n\e]2;helm ls\a\e]1;helm\a"
+  - delay: 814
+    content: "NAME       \tNAMESPACE\tREVISION\tUPDATED                             \tSTATUS  \tCHART            \tAPP VERSION\r\necho-server\ttest     \t4       \t2020-07-09 16:57:02.562108 -0500 CDT\tdeployed\techo-server-0.3.0\t0.4.0      \r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                 \r \r\e]2;austinvance@morgan: ~/workspace/focused/talk\a\e]1;../focused/talk\a"
+  - delay: 11
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[44m\e[38;5;254m \e[1m\e[38;5;254m\e[44m\e[38;5;255m~\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m/\e[38;5;250mw\e[0m\e[38;5;250m\e[44m\e[44m\e[38;5;254m/focused/\e[1m\e[38;5;254m\e[44m\e[38;5;255mtalk\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m\e[0m\e[38;5;254m\e[44m\e[44m\e[38;5;254m \e[0m\e[38;5;254m\e[44m\e[49m\e[34m\e[0m\e[34m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[72C\e[0m\e[49m\e[30m\e[0m\e[30m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m✔\e[0m\e[32m\e[40m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m\e[32m\e[0m\e[32m\e[40m\e[42m\e[90m focused-demo/test\e[0m\e[90m\e[42m\e[42m\e[90m ⎈\e[0m\e[90m\e[42m\e[42m\e[90m \e[0m\e[90m\e[42m\e[42m\e[90m\e[36m\e[0m\e[36m\e[42m\e[46m\e[90m twenty\e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[49m\e[39m\e[109D\e[?1h\e=\e[?2004h"
+  - delay: 1533
+    content: k
+  - delay: 145
+    content: "\bku"
+  - delay: 201
+    content: b
+  - delay: 92
+    content: e
+  - delay: 1080
+    content: c
+  - delay: 191
+    content: t
+  - delay: 68
+    content: l
+  - delay: 123
+    content: ' '
+  - delay: 113
+    content: g
+  - delay: 134
+    content: e
+  - delay: 68
+    content: t
+  - delay: 103
+    content: ' '
+  - delay: 211
+    content: p
+  - delay: 157
+    content: o
+  - delay: 114
+    content: d
+  - delay: 42
+    content: s
+  - delay: 181
+    content: "\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m kubectl get pods\e[K\e[?12l\e[?25h\r\r\n\e]2;kubectl get pods\a\e]1;kubectl\a"
+  - delay: 878
+    content: "NAME                         READY   STATUS        RESTARTS   AGE\r\necho-server-5fdc45cd-4xsjx   1/1     Running       0          10s\r\necho-server-5fdc45cd-7257k   1/1     Terminating   0          44s\r\necho-server-5fdc45cd-ddpt9   1/1     Terminating   0          44s\r\necho-server-5fdc45cd-gmm9x   1/1     Running       0          44s\r\necho-server-5fdc45cd-jwwjr   1/1     Running       0          79s\r\necho-server-5fdc45cd-nvnqb   1/1     Running       0          10s\r\necho-server-5fdc45cd-tmgjg   1/1     Running       0          44s\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                 \r \r\e]2;austinvance@morgan: ~/workspace/focused/talk\a\e]1;../focused/talk\a"
+  - delay: 10
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[44m\e[38;5;254m \e[1m\e[38;5;254m\e[44m\e[38;5;255m~\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m/\e[38;5;250mw\e[0m\e[38;5;250m\e[44m\e[44m\e[38;5;254m/focused/\e[1m\e[38;5;254m\e[44m\e[38;5;255mtalk\e[0m\e[38;5;255m\e[44m\e[44m\e[38;5;254m\e[0m\e[38;5;254m\e[44m\e[44m\e[38;5;254m \e[0m\e[38;5;254m\e[44m\e[49m\e[34m\e[0m\e[34m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[72C\e[0m\e[49m\e[30m\e[0m\e[30m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m✔\e[0m\e[32m\e[40m\e[40m\e[32m \e[0m\e[32m\e[40m\e[40m\e[32m\e[32m\e[0m\e[32m\e[40m\e[42m\e[90m focused-demo/test\e[0m\e[90m\e[42m\e[42m\e[90m ⎈\e[0m\e[90m\e[42m\e[42m\e[90m \e[0m\e[90m\e[42m\e[42m\e[90m\e[36m\e[0m\e[36m\e[42m\e[46m\e[90m twenty\e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[46m\e[90m \e[0m\e[90m\e[46m\e[49m\e[39m\e[109D\e[?1h\e=\e[?2004h"
+  - delay: 6330
+    content: "\e[?2004l\r\r\n"
