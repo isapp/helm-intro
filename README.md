@@ -2,24 +2,6 @@
 
 ---
 
-## First Thank you
-1. Connecting is hard this meetup is awesome
-1. Hosting and organizing
-
-
-## Who am I?
-
-* I'm Austin Vance. I have done a few things mostly coding or
-managing operations teams. 
-
-* I have a history at Pivotal, EMC, Dell, 
-and Paypal.
-
-* Now I have Focused Labs and we are a growing amazing team!
-  * Focused's goal is to bring agility to operations and software development
-
----
-
 ## Why Kubernetes
 
 1. Config driven deployments
@@ -88,16 +70,31 @@ Pro Tips:
 
 # Now lets talk some CI
 
-https://ci.withfocus.com
+> ** Github actions on every project **
 
-**Application version:** `<build_number>_<git_short_sha>`
+**Application version:** `<env>_<git_sha>`
 
 **Audit Artifacts:**
 1. Application Artifact: Docker image containing your built application. Published to an [ECR](https://aws.amazon.com/ecr/) repository under `<aws_account_number>.dkr.ecr.<aws_region>.amazonaws.com/<ecr_repo_name>:<application_version>`
 1. Automated Test Artifact: Publish test result <nexus/S3/etc>
-1. Manual Test Artifact: Acceptance of JIRA tickets indicate that a representative of the business has manually interacted with the feature and verified it works as expected.
+1. Manual Test Artifact: Acceptance of pviotal stories indicate that a representative of the business has manually interacted with the feature and verified it works as expected.
 1. Automated vulnerability scanning before promotion: 
     * passing builds are candidates for promotion to staging/production.
+
+# FluxCD & GitOps
+
+> GitOps is two things:
+>
+> An operating model for Kubernetes and cloud native.  It provides a set of best practices to join up deployment, management and monitoring for containerized clusters and applications.  An elegant “1 slide” definition from Luis Faceira is shown below.
+>
+> ![GitOps Slide](https://github.com/focused-labs/helm-intro/blob/master/vitorsilva-gitops.png?raw=true)
+>
+> A path towards a developer centric experience for managing applications.  We’re applying the Git workflow to operations, as well as development.  Note that this is not just about Git push, it’s about how we set up the entire CICD toolchain and UI/UX.
+
+## For gitops we use FluxCD
+
+![Flux](https://github.com/focused-labs/helm-intro/blob/master/flux-cd-diagram.png?raw=true)
+
 
 ### Further Reading
 * [Helm Hub](https://hub.helm.sh/)
