@@ -87,13 +87,13 @@ Pro Tips:
 >
 > An operating model for Kubernetes and cloud native.  It provides a set of best practices to join up deployment, management and monitoring for containerized clusters and applications.  An elegant “1 slide” definition from Luis Faceira is shown below.
 >
-> ![GitOps Slide](https://raw.github.com/focused-labs/helm-intro/blob/master/vitorsilva-gitops.png)
+> ![GitOps Slide](https://raw.githubusercontent.com/isapp/helm-intro/master/vitorsilva-gitops.png)
 >
 > A path towards a developer centric experience for managing applications.  We’re applying the Git workflow to operations, as well as development.  Note that this is not just about Git push, it’s about how we set up the entire CICD toolchain and UI/UX.
 
 ## For gitops we use FluxCD
 
-![Flux](https://raw.github.com/focused-labs/helm-intro/blob/master/flux-cd-diagram.png)
+![Flux](https://raw.github.com/isapp/helm-intro/master/flux-cd-diagram.png)
 
 
 ### Further Reading
